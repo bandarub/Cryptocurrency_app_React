@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.body{
+  width:100vw;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+.App-header {
+  background-color: rgb(219, 118, 35);
+  color: white;
+  font-size: 1.5vw;
+  width:100vw;
+  margin:0 auto;
+  margin: 0;
+  padding: 1vw;
+}
+

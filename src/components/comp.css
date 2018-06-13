@@ -1,0 +1,62 @@
+
+.crypto_coins {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    width:90vw;
+    margin:2vw auto;
+}
+.crypto_coins ul{
+    box-shadow: 2px 1px 20px 0px #333333; 
+    width:20vw;
+    align-self: center;
+    padding:1vw;
+    transition-duration: 0.4s;
+}
+.crypto_coins .data{
+align-self: center;
+}
+.crypto_coins ul:hover{
+    background-color:#DB7623;
+    color:white;
+    font-size:1.05vw;
+    box-shadow: 2px 1px 20px 0px #333333;    
+}
+.crypto_coins ul p,h2{
+    font-size: 1.5vw;
+}
+#myInput[type=text] {
+    width: 60vw;
+    padding: 2vw 4vw;
+    margin: 4vw;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+#myInput[type=text]:focus {
+    background-color: #DB7623;
+    border:none;
+}
+.buttons-container{
+    width:30vw;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.buttons-container .button{
+    border: none;
+    padding: 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1vw 0.5vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttons-container .button:hover{
+    background-color: #DB7623;
+}

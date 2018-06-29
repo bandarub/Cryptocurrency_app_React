@@ -5,8 +5,7 @@ import comp from './comp.css';
 class CoinsList extends Component {
   constructor(props) {
     super(props);
-   this.searchFunction=this.searchFunction.bind(this);
-   
+   this.searchFunction=this.searchFunction.bind(this);   
     this.state = {  
         sorted_state : 'price',    
         data: []
